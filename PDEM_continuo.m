@@ -40,7 +40,7 @@ while true
     for b=1: pars.num_disc_w
         %% DISCRETIZACAO DO VOLUME
         %for a=1:pars.num_disc_x    
-        parfor a=1:pars.num_disc_x        
+        for a=1:pars.num_disc_x        
             %% DISCRETIZACAO DA VAZAO FUTURA
             %if a==1
                 lb = pars.qmin;
